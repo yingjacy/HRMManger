@@ -1,0 +1,61 @@
+@import url("../common.less");
+body {
+    min-width: 320px;
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: Arial Helvetica;
+    background: #f2f2f2;
+    overflow: hidden;
+}
+
+// .search-content{
+//     width: 15rem;
+//     height: (180rem / @basefont);
+//     background-color: red;
+//     .search-nav {
+//         width: (682rem / @basefont);
+//         height: (88rem / @basefont);
+//         margin: 0 auto;
+//         background-color: #0f2;
+//         .classsify {
+//             width: (36rem / @basefont);
+//             height: (60rem / @basefont);
+//             background-size: (36rem / @basefont) (60rem / @basefont);
+//             padding: (14rem / @basefont) auto;
+//         }
+//     }    
+// }
+
+
+.footer-nav{
+    min-width: 320px;
+    width: 100%;
+    position:fixed;   
+    bottom: 0;
+    left: 0;       
+    padding: (10rem / @basefont);
+    border-top: 1px solid #999;
+
+    ul {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        font-size: (25rem / @basefont);
+        
+        li {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            color: #999;
+           
+        }
+        li:hover{
+            color: #1899E1;
+        }
+    }
+}
+

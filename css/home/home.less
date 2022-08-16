@@ -1,0 +1,168 @@
+@import url("../common.less");
+.header {
+    width: 100%;
+    height: (500rem  / @basefont);
+    background: url(../../images/home_top.jpeg);
+    padding: (10rem / @basefont) (20rem / @basefont) 0;
+    // position: relative;
+    h2 {
+        font-size: (50rem / @basefont);
+        color: #fff;
+        line-height: 1.5;
+        font-family: Arial Helvetica;
+        margin-bottom: (60rem / @basefont);
+    }
+    .user-header {
+        font-size: (34rem / @basefont);
+        color: #fff;
+        .user-logo{
+            height: (150rem / @basefont);
+            width: (150rem / @basefont);
+            border-radius: (150rem / @basefont);
+            background-color: rebeccapurple;
+            margin-left: (40rem / @basefont);
+            border: 1px solid #aaa;
+            box-shadow: 0 0 (5rem / @basefont) (10rem / @basefont) #666;
+            vertical-align: bottom;
+        }
+    }
+    ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        margin-top: (60rem / @basefont);
+        li{
+            text-align: center;
+            color: #fff;
+            font-size: (30rem / @basefont);
+            .lab {
+                font-size: (50rem / @basefont);
+            }
+        }
+
+        li:hover{
+            color: #1899E1;
+        }
+    }        
+}
+
+.nav {
+    .tip {        
+        font-size: (30rem / @basefont);
+        padding: (10rem / @basefont) (20rem / @basefont) 0;
+        border-bottom: 1px solid #aaa;
+        height: (100rem / @basefont);
+        line-height: (100rem / @basefont);
+        
+        span::before {
+            display: inline-block;
+            width: (45rem / @basefont);
+            height: (45rem / @basefont);
+            border-radius: (45rem / @basefont);
+            border: 1px solid #fff;
+            color: #fff;
+            background-color: #1899E1;            
+            text-align: center;
+            line-height: (45rem / @basefont);
+            margin-bottom:  (10rem / @basefont);
+            margin-right: (8rem / @basefont);
+            font-size: (38rem / @basefont);
+            vertical-align: middle;
+        }
+        
+    }
+    ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        padding: (10rem / @basefont) (20rem / @basefont);
+        li {
+            color: #fff;
+            border-radius: (7rem / @basefont);
+            width: (200rem / @basefont);
+            height: (80rem / @basefont); 
+            line-height: (80rem / @basefont)!important; 
+            text-align: center;    
+            font-size: (30rem / @basefont);         
+            span{
+                top: 0px;
+            }
+            span::before {   
+                width: (45rem / @basefont);
+                height: (45rem / @basefont);
+                line-height: (45rem / @basefont);                          
+                border-radius: (45rem / @basefont);
+                border: 1px solid #fff;
+                
+                background-color: #fff;            
+                text-align: center;                
+                margin-right: (8rem / @basefont);
+                font-size: (38rem / @basefont);
+                vertical-align: middle;
+                display: inline-block;
+                top: 0px;
+            }
+            
+            
+            
+        }
+
+        li:nth-child(1) {            
+            background-color: #B575FF;
+            span::before{
+                color: #B575FF;
+            }
+        }
+
+        li:nth-child(2) {            
+            background-color: #5CC0FE;
+            span::before{
+                color: #5CC0FE;
+            }
+        }
+
+        li:nth-child(3) {            
+            background-color: #FFAB55;
+            span::before{
+                color: #FFAB55;
+            }
+        }
+
+        
+    }
+}
+
+.funContent{
+    .titleTip{
+        font-size: (30rem / @basefont);
+        margin: (10rem / @basefont) (20rem / @basefont) 0;
+        border-bottom: 1px solid #aaa;
+        height: (80rem / @basefont);
+        line-height: (80rem / @basefont);
+    }
+    span::before{
+        display: inline-block;
+        width: (45rem / @basefont);
+        height: (45rem / @basefont);     
+        text-align: center;
+        line-height: (45rem / @basefont);
+        font-size: (38rem / @basefont);
+        vertical-align: sub;
+        color: #5CC0FE;
+        margin-right: (10rem / @basefont);
+    }
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin-top: (10rem / @basefont);
+        li {
+            width: 33.33%;
+            height: (150rem / @basefont);
+            line-height: (150rem / @basefont);
+            border: 1px solid #000;
+            text-align: center;
+            box-sizing: border-box;
+        }
+    }
+}
