@@ -3,11 +3,12 @@ body {
     min-width: 320px;
     max-width: 750px;
     width: 100%;
+    height: 20000px;
     margin: 0 auto;
     line-height: 1.5;
     font-family: Arial Helvetica;
     background: #f2f2f2;
-    overflow: hidden;
+    // overflow: hidden;
 }
 
 // .search-content{
@@ -31,20 +32,28 @@ body {
 
 .footer-nav{
     min-width: 320px;
+    max-width: 750px;
     width: 100%;
     position:fixed;   
     bottom: 0;
-    left: 0;       
-    padding: (10rem / @basefont);
-    border-top: 1px solid #999;
+    left: 0;  
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;     
+    height: (90rem / @basefont);
+    border: 1px solid #999;
+    background-color: #f2f2f2;
 
     ul {
         width: 100%;
         padding: 0;
+        height: (90rem / @basefont);
+        line-height: (90rem / @basefont);
         display: flex;
         flex-direction: row;
         justify-content:space-around;
         font-size: (25rem / @basefont);
+        margin: 0;
         
         li {
             display: flex;

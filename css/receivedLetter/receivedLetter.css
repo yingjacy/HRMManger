@@ -1,0 +1,130 @@
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+html {
+  font-size: 50px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 21.33333333px;
+  }
+}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 25.6px;
+  }
+}
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 26.66666667px;
+  }
+}
+@media screen and (min-width: 424px) {
+  html {
+    font-size: 28.26666667px;
+  }
+}
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 50px;
+  }
+}
+body {
+  min-width: 320px;
+  max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-family: Arial Helvetica;
+  background: #f2f2f2;
+}
+body .receivedLetterHeader {
+  position: relative;
+  height: 2.4rem;
+  width: 100%;
+  background: url(../../images/receivedLetterTop.png);
+  background-position: left 220px;
+  padding: 0 0.8rem;
+}
+body .receivedLetterHeader div {
+  height: 2.4rem;
+  line-height: 2.4rem;
+  color: #fff;
+}
+body .receivedLetterHeader div:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0.8rem;
+  float: left;
+  font-size: 0.52rem;
+}
+body .receivedLetterHeader div:nth-child(1)::before {
+  font-size: 0.6rem;
+  vertical-align: sub;
+}
+body .receivedLetterHeader div:nth-child(2) {
+  font-size: 0.68rem;
+  text-align: center;
+}
+body .receivedLetterHeader div:nth-child(3) {
+  position: absolute;
+  top: 0;
+  right: 0.8rem;
+}
+body .receivedLetterHeader div:nth-child(3)::before {
+  font-size: 0.6rem;
+}
+body .receivedLetterSearch {
+  height: 2rem;
+  padding: 0.4rem 0.8rem;
+}
+body .receivedLetterSearch input {
+  width: 9.6rem;
+  height: 1.2rem;
+  padding-left: 2rem;
+  border-radius: 0.6rem;
+  border: none;
+  font-size: 0.4rem;
+  margin-right: 2rem;
+  float: left;
+  /* background-image: url(../../images/spirit.png);
+            background-position: 828px -205px; */
+}
+body .receivedLetterSearch div {
+  display: inline-block;
+  font-size: 0.4rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  float: right;
+}
+body .receivedLetterSearch div span::before {
+  vertical-align: text-bottom;
+}

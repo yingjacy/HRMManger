@@ -1,0 +1,84 @@
+@import url(../common.less); 
+body {
+    min-width: 320px;
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: Arial Helvetica;
+    background: #f2f2f2;
+
+    .receivedLetterHeader {
+        position: relative;
+        height: (120rem / @basefont);
+        width: 100%;
+        background: url(../../images/receivedLetterTop.png);
+        background-position:left 220px;
+        padding: 0 (40rem / @basefont);
+        div{
+            height: (120rem / @basefont);
+            line-height: (120rem / @basefont);
+            color: #fff;
+        }
+        div:nth-child(1) {
+            position: absolute;
+            top: 0;
+            left: (40rem / @basefont);
+            float: left;
+            font-size: (26rem / @basefont);
+        }
+
+        div:nth-child(1)::before {
+            font-size: (30rem / @basefont);
+            vertical-align: sub;
+        }
+
+        div:nth-child(2) {
+            font-size: (34rem / @basefont);
+            text-align: center;
+           
+        }
+
+        div:nth-child(3) {
+            position: absolute;
+            top: 0;
+            right: (40rem / @basefont);
+        }
+
+        div:nth-child(3)::before {
+            font-size: (30rem / @basefont);
+        }
+
+    }
+    
+    .receivedLetterSearch {
+        height: (100rem / @basefont);
+        padding: (20rem / @basefont) (40rem / @basefont);
+        input {
+            width: (480rem / @basefont);
+            height: (60rem / @basefont);
+            padding-left: (100rem / @basefont);
+            border-radius:(30rem / @basefont);
+            border: none;
+            font-size: (20rem / @basefont);
+            margin-right: (100rem / @basefont);
+            float: left;
+            /* background-image: url(../../images/spirit.png);
+            background-position: 828px -205px; */
+        }
+        div{
+            display: inline-block;
+            font-size: (20rem / @basefont);
+            height: (60rem / @basefont);
+            line-height: (60rem / @basefont);
+            float:right;
+            span::before{
+                vertical-align: text-bottom;
+            }
+        }
+    }
+    
+    .receivedLetterContent {
+    
+    }
+}
